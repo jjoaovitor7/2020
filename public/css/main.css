@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 25vh;
+
+  background: rgb(247, 3, 3);
+  background: linear-gradient(
+      45deg,
+      rgba(247, 3, 3, 0.91) 0%,
+      rgba(0, 0, 0, 1) 50%,
+      rgba(0, 151, 255, 0.9056488806460083) 100%
+    )
+    no-repeat;
+}
+
+#home header h1 {
+  text-align: center;
+  font-size: 150px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+span.red {
+  color: rgba(247, 3, 3, 0.91);
+}
+
+span.blue {
+  color: rgba(0, 151, 255, 0.9056488806460083);
+}
+
+div#button-coisas {
+  text-align: center;
+}
+
+a#btn-coisas-ruins {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Lato", "sans-serif";
+  opacity: 0.8;
+}
+
+a#btn-coisas-ruins:hover {
+  opacity: 1;
+}
+
+a#btn-coisas-boas {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Lato", "sans-serif";
+  opacity: 0.8;
+}
+
+a#btn-coisas-boas:hover {
+  opacity: 1;
+}
