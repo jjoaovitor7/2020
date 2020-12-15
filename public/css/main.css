@@ -15,7 +15,6 @@ body#page-home {
   flex-direction: column;
   margin: 25vh;
 
-  background: rgb(247, 3, 3);
   background: linear-gradient(
       45deg,
       rgba(247, 3, 3, 0.91) 0%,
@@ -78,25 +77,23 @@ a#btn-coisas-boas:hover {
   opacity: 1;
 }
 
-body#page-coisas-boas,
+body#page-coisas-boas {
+  background: rgba(0, 151, 255, 0.9056488806460083) 100% no-repeat;
+}
+
 body#page-coisas-ruins {
-  background: rgb(247, 3, 3);
-  background: linear-gradient(
-      45deg,
-      rgba(247, 3, 3, 0.91) 0%,
-      rgba(0, 0, 0, 1) 50%,
-      rgba(0, 151, 255, 0.9056488806460083) 100%
-    )
-    no-repeat;
+  background: rgba(247, 3, 3, 0.91) 0% no-repeat;
 }
 
 body#page-coisas-boas header h1,
 body#page-coisas-ruins header h1 {
+  background: #111;
+  margin: 25px 525px 15px 525px;
   text-align: center;
   font-size: 45px;
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  margin-top: 25px;
+  border-radius: 15px;
 }
 
 body#page-coisas-boas div#content-coisas-boas,
@@ -107,4 +104,10 @@ body#page-coisas-ruins div#content-coisas-ruins {
   height: 500px;
   margin: auto;
   border-radius: 15px;
+}
+
+body#page-coisas-boas div#content-coisas-boas a {
+    text-decoration: none;
+    font-family: "Lato", "sans-serif";
+    margin: 0 5px 0 5px;
 }
