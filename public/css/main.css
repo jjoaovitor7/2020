@@ -106,7 +106,7 @@ body#page-coisas-ruins div#content-coisas-ruins {
   border-radius: 15px;
 }
 
-body#page-coisas-boas div#content-coisas-boas a {
+body#page-coisas-boas div#content-coisas-boas a, body#page-coisas-ruins div#content-coisas-ruins a {
     text-decoration: none;
     font-family: "Lato", "sans-serif";
     margin: 0 5px 0 5px;
