@@ -5,6 +5,7 @@
 }
 
 html {
+  font-size: 62.5%;
   height: 100%;
 }
 
@@ -29,7 +30,7 @@ body#page-home header {
 }
 
 body#page-home header h1 {
-  font-size: 150px;
+  font-size: 13rem;
   font-family: "Lato", sans-serif;
   font-weight: bold;
 }
@@ -53,7 +54,7 @@ a#btn-coisas-ruins {
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: bold;
   font-family: "Lato", "sans-serif";
   opacity: 0.8;
@@ -71,7 +72,7 @@ a#btn-coisas-boas {
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: bold;
   font-family: "Lato", "sans-serif";
   opacity: 0.8;
@@ -99,10 +100,10 @@ body#page-coisas-ruins header {
 body#page-coisas-boas header h1,
 body#page-coisas-ruins header h1 {
   background: #111;
-  width: 280px;
+  width: 28rem;
   margin: 15px 0;
   text-align: center;
-  font-size: 45px;
+  font-size: 4.5rem;
   font-family: "Lato", sans-serif;
   font-weight: bold;
   border-radius: 15px;
@@ -112,8 +113,8 @@ body#page-coisas-boas div#content-coisas-boas,
 body#page-coisas-ruins div#content-coisas-ruins {
   overflow: scroll;
   background-color: white;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 40rem;
+  max-height: 40rem;
   margin: auto;
   border-radius: 15px;
 }
@@ -123,12 +124,14 @@ body#page-coisas-ruins div#content-coisas-ruins a {
   text-decoration: none;
   font-family: "Lato", "sans-serif";
   margin: 0 5px 0 5px;
+  font-size: 1.5rem;
 }
 
 body#page-coisas-boas div#content-coisas-boas p,
 body#page-coisas-ruins div#content-coisas-ruins p {
   margin-left: 5px;
   font-family: "Lato", "sans-serif";
+  font-size: 1.5rem;
 }
 
 @media (max-width: 768px) {
@@ -143,11 +146,11 @@ body#page-coisas-ruins div#content-coisas-ruins p {
   }
 
   a#btn-coisas-ruins {
-    font-size: 16px;
+    font-size: 1.5rem;
   }
 
   a#btn-coisas-boas {
-    font-size: 16px;
+    font-size: 1.5rem;
   }
 }
 
@@ -163,10 +166,10 @@ body#page-coisas-ruins div#content-coisas-ruins p {
   }
 
   a#btn-coisas-ruins {
-    font-size: 16px;
+    font-size: 1.5rem;
   }
 
   a#btn-coisas-boas {
-    font-size: 16px;
+    font-size: 1.5rem;
   }
 }
