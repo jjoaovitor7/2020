@@ -114,6 +114,9 @@ body#page-coisas-ruins div#content-coisas-ruins a {
 }
 
 @media (max-width: 768px) {
+  html {
+    height: 150%;
+  }
 
   body#page-coisas-boas header h1,
   body#page-coisas-ruins header h1 {
