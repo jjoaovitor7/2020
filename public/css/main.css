@@ -113,14 +113,20 @@ body#page-coisas-ruins div#content-coisas-ruins a {
   margin: 0 5px 0 5px;
 }
 
+body#page-coisas-boas div#content-coisas-boas p,
+body#page-coisas-ruins div#content-coisas-ruins p {
+  margin-left: 5px;
+  font-family: "Lato", "sans-serif";
+}
+
 @media (max-width: 768px) {
   html {
-    height: 125%;
+    height: 115%;
   }
 
   body#page-coisas-boas header h1,
   body#page-coisas-ruins header h1 {
-    margin: 15px 100px;
+    margin: 15px 80px;
   }
 
   div#button-coisas {
