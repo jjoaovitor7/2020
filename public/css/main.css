@@ -11,7 +11,6 @@ html {
 body#page-home {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   margin: 25vh;
 
@@ -24,8 +23,12 @@ body#page-home {
     no-repeat;
 }
 
+body#page-home header {
+  display: flex;
+  justify-content: center;
+}
+
 body#page-home header h1 {
-  text-align: center;
   font-size: 150px;
   font-family: "Lato", sans-serif;
   font-weight: bold;
@@ -78,17 +81,24 @@ a#btn-coisas-boas:hover {
 }
 
 body#page-coisas-boas {
-  background: rgba(0, 151, 255, 0.9056488806460083) 100% no-repeat;
+  background: rgba(0, 151, 255, 0.9056488806460083) no-repeat;
 }
 
 body#page-coisas-ruins {
-  background: rgba(247, 3, 3, 0.91) 0% no-repeat;
+  background: rgba(247, 3, 3, 0.91) no-repeat;
+}
+
+body#page-coisas-boas header,
+body#page-coisas-ruins header {
+  display: flex;
+  justify-content: center;
 }
 
 body#page-coisas-boas header h1,
 body#page-coisas-ruins header h1 {
   background: #111;
-  margin: 25px 525px 15px 525px;
+  width: 280px;
+  margin: 15px 0;
   text-align: center;
   font-size: 45px;
   font-family: "Lato", sans-serif;
@@ -100,8 +110,8 @@ body#page-coisas-boas div#content-coisas-boas,
 body#page-coisas-ruins div#content-coisas-ruins {
   overflow: scroll;
   background-color: white;
-  width: 500px;
-  height: 500px;
+  max-width: 500px;
+  max-height: 500px;
   margin: auto;
   border-radius: 15px;
 }
@@ -120,13 +130,8 @@ body#page-coisas-ruins div#content-coisas-ruins p {
 }
 
 @media (max-width: 768px) {
-  html {
+  html[data-fix="fix-1"] {
     height: 115%;
-  }
-
-  body#page-coisas-boas header h1,
-  body#page-coisas-ruins header h1 {
-    margin: 15px 80px;
   }
 
   div#button-coisas {
