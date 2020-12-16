@@ -135,8 +135,9 @@ body#page-coisas-ruins div#content-coisas-ruins p {
   }
 
   div#button-coisas {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
   }
 
   a#btn-coisas-ruins {
