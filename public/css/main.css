@@ -137,7 +137,7 @@ body#page-coisas-ruins div#content-coisas-ruins p {
   div#button-coisas {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    margin-left: -25px;
+    margin-left: -50px;
 
   }
 
