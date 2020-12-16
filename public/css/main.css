@@ -44,7 +44,8 @@ span.blue {
 }
 
 div#button-coisas {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 a#btn-coisas-ruins {
@@ -59,6 +60,7 @@ a#btn-coisas-ruins {
   font-family: "Lato", "sans-serif";
   opacity: 0.8;
   margin-top: 5px;
+  margin-right: 5px;
 }
 
 a#btn-coisas-ruins:hover {
