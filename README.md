@@ -12,7 +12,7 @@
 
 
 ## :scroll: Sobre
-Acontecimentos ruins e bons de 2020.
+Coisas Ruins e Coisas Boas de 2020.
 
 ---
 
